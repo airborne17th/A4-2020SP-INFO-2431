@@ -22,6 +22,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="news.html">News</a></li>
             <li><a href="employment.html">Employment</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
         </nav>
@@ -30,9 +31,10 @@
 </div>
   
 <div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-        <div class="authentic">
+<div class="row">
+
+<div class="col-sm-4">
+  <div id="column1">
             <h1>Horizon Enterprises</h1>
             <h2>"Acta non verba."</h2><br>
             <h3>About Us</h3>
@@ -40,28 +42,33 @@
                 We are based out of Lincoln, Nebraska with other offices across the Midwest including Dallas and Minneapolis. Our founder believed in a single guiding principle.
             </p>
             <p>Commitment to making the world a better place through technology and honest and responsible values.</p>
+  </div>
+  <div id="column2">
             <h3>Innovative Solutions</h3>
             <img src="images/work1.jpg" alt="Our employees tirelessly at work">
             <p>Our company strives to provide the best wireless and cellular network to our customers. We are proudly partnered with Verizon to improve service across the Midwest.
-                We also provide leading products such as iPhones, Samsung phones and the like on our fair and competitive pricing. 
-                Not only do we provide networking and products, we also host and organize various e-Sports clubs and activities. We will host events from casual family fun to serious to big stake tournaments with massive prizes. 
-                Sign up for our newsletter for these reasons! 
-            </p>
-                <ul>
-                    <li>Learn more about event near you.</li>
-                    <li>Stay up to date with the latest tech trends.</li>
-                    <li>Get exclusive deals and coupons.</li>
-                </ul>
-            <br><br><br>
+                We also provide leading products such as iPhones and Samsung on our fair and competitive pricing. 
+                Not only do we provide networking and products, we also host and organize various gaming clubs and activities. We will host events from casual family fun to serious to big stake tournaments with massive prizes. 
+                Check out our check out our sponsored teams:
+                <ul class="gamer">
+                  <li><a href="gaming.html" id="gamer"></a>CS:GO</a></li>
+                  <li><a href="gaming.html" id="gamer"></a>League of Legends</a></li>
+                  <li><a href="gaming.html" id="gamer"></a>Smash Bros.</a></li>
+                  <li><a href="gaming.html" id="gamer"></a>Rocket League</a></li>
+                </ul>  
+            </p>              
+            <br>
+  </div>
+  <div id="column3">          
             <h3>A Culture of Success</h3>
             <p>We are always on the lookout for new talent to add to our team. Come and join our exciting and cutting edge copmany. We strive to create a family of employees who enjoy our 
               work because we believe that environment creates a better experience for not only our employees, but our customers and partners as well.</p>
             <img src="images/work2.jpg" alt="Employee meetings">
-    </div>
   </div>
+</div>
 
 <div class="col-sm-4">
-    
+
   <div class="findStore">
   <h3>Enter in a ZIP to find a store near you!</h3>
   <p id="factText">[City Information Here].</p>
@@ -70,6 +77,7 @@
   <label>&nbsp;</label>
   <input type="button" class="bigButton" id="findButton" value="Find"><br><br>
   </div>
+
   <div class="inner">
     <span>i</span>
     <h1>Store Fact</h1>
@@ -78,11 +86,11 @@
 
   <div class="testimontals">
     <h3>Testimontals</h3>
-    <img src="images/testimontal1.jpg" alt="Customer Review Pic">
+    <img class="pic" src="images/testimontal1.jpg" alt="Customer Review Pic">
     <p>"Horizon is fire! I been loving the LAN parties they hold on a monthly basis."</p>
-    <img src="images/testimontal2.jpg" alt="Employee Review Pic">
+    <img class="pic" src="images/testimontal2.jpg" alt="Employee Review Pic">
     <p>"I been with the company for five years. I met some of my closest friends here."</p>
-    <img src="images/testimontal3.jpg" alt="Customer Review Pic">
+    <img class="pic" src="images/testimontal3.jpg" alt="Customer Review Pic">
     <p>"I love my iPhone. I have so many great memories with the iPhone's excellent camera and battery."</p>
   </div>
 
@@ -107,6 +115,15 @@
         </form>
     </div>
     
+    <input type="submit" id="flipDown" value="Learn More!"> <input type="submit" id="flipUp" value="Hide">  
+    <div id="list">
+      <ul>
+      <li>Learn more about event near you.</li>
+      <li>Stay up to date with the latest tech trends.</li>
+      <li>Get exclusive deals and coupons.</li>
+      </ul><br>
+    </div>
+
     <div class="socialmedia">
         <h2>Follow Us!</h2>
           <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
@@ -123,7 +140,7 @@
         <img src="images/phoneAds/LGstylo5.jpg" alt="Sylish and powerful. The LG Stylo 5.">
         <img src="images/phoneAds/pixel4xl.jpg" alt="New Tech. Best Camera. Pixel 4XL.">
     </div>
-
+    
 </div>
 
 <div class="footer text-center py-3">
@@ -137,6 +154,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/80c1c40743.js" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+<!-- <script src="start.js"></script> -->
 <script src="slide_show.js"></script>
+<script src="newsletter.js"></script>
+<script src="RGB.js"></script>
+<script src="pictures.js"></script>
 </html>

@@ -1,0 +1,239 @@
+﻿body
+{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em; 
+    margin: 2em 0 .8em;
+}
+
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.4rem;
+}
+
+
+h2{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.hero-bg {
+    /* background-position: ;*/
+    color: white;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.jumbotron{
+    background: url('../images/bg.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.hero-bg img{
+    width:20%;
+    top: -1.5em;
+    right: -1.5em;
+}
+
+header{
+    padding: 2em 0;
+    text-align: left;
+    background: white 50%;
+}
+
+.hero-bg a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.heading{
+    background: white;
+    color: black;
+    background-position: center;
+    overflow: hidden;
+}
+
+section{
+    margin: 0 1em;
+}
+
+.hero-bg p {
+    font-weight: bold;
+    margin: 0 1em 1.5em;
+}
+
+.form-container{
+    background-color: grey;
+    margin: 2em -1em 0;
+    padding: 1.2em; 
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+input[type=text]{
+    border: 1px solid darkgray;
+    width: 75%;
+    padding: 1em;
+    border-radius: 3em;
+}
+
+.form-container p{
+    margin-bottom: 1.2em;
+    margin-top: .25em;
+    font-weight: normal;
+    font-size: .9em;
+}
+
+img{
+    width: 100%;
+}
+
+.testimontals img{
+    width: 50%;
+    border-radius: 50%;
+    grid-area: customer;
+}
+
+p{
+    line-height: var(--leading);
+}
+
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #FFA400;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    padding-top: 2em;
+    top: 20%;
+}
+
+nav ul{
+    padding-left: 1em;
+    background-color: #6D4810;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+.button {
+    background-color: #BB191B; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+  }
+  
+.inner {
+    background:#e8a348;
+    padding: 1em;
+    border-radius: 10px;
+    width: 250px;
+    clip-path: circle(10% at 90% 20%);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    color: white;
+}
+    
+.inner h1 {
+        margin: 0;
+}
+  
+.inner p {
+        font-size: .8em;
+    }
+  
+.inner span {
+        float: right;
+        color: white;
+        font-weight: bold;
+        transition: color .5s;
+        position: relative;
+        margin-right: 4%;
+}
+  
+.inner:hover {
+    clip-path: circle(75%);
+    background: #e8a348;
+}
+  
+.inner:hover span {
+    color: rgba(255,255,255,0)
+}
+  
+.bigButton {
+    display: inline-block;
+    padding: 1em 1em;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6D4810;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #EAB88F;
+}
+  
+.bigButton:hover {background-color: #FFA400}
+  
+.bigButton:active {
+    background-color: #6D4810;
+    box-shadow: 0 5px #EAB88F;
+    transform: translateY(4px);
+}
+
+.testimontals{
+    padding: 2em;
+}
+
+img{
+    padding: 1em;
+}
+
+.phoneAds{
+    padding: 1.2em;
+}
+
+#slides img {
+	display: none;
+}
+
+.gamer{
+    text-decoration: none;
+    cursor: crosshair;
+    list-style-type: none;
+}
