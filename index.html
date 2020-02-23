@@ -34,9 +34,9 @@
 <div class="row">
 
 <div class="col-sm-4">
+            <span id="companyName"><h1>Horizon <span id="companyTwo">Enterprises</span></h1></span>
+            <span id="motto"><h2>"Acta non verba."</h2></span><br>
   <div id="column1">
-            <h1>Horizon Enterprises</h1>
-            <h2>"Acta non verba."</h2><br>
             <h3>About Us</h3>
             <p>Our business connected everything the digital world has to offer with our 5G networking. We also provide the latest and greatest technology at competitive pricing. 
                 We are based out of Lincoln, Nebraska with other offices across the Midwest including Dallas and Minneapolis. Our founder believed in a single guiding principle.
@@ -49,12 +49,14 @@
             <p>Our company strives to provide the best wireless and cellular network to our customers. We are proudly partnered with Verizon to improve service across the Midwest.
                 We also provide leading products such as iPhones and Samsung on our fair and competitive pricing. 
                 Not only do we provide networking and products, we also host and organize various gaming clubs and activities. We will host events from casual family fun to serious to big stake tournaments with massive prizes. 
-                Check out our check out our sponsored teams:
+                Check out our check out our sponsored team:
                 <ul class="gamer">
-                  <li><a href="gaming.html" id="gamer"></a>CS:GO</a></li>
-                  <li><a href="gaming.html" id="gamer"></a>League of Legends</a></li>
-                  <li><a href="gaming.html" id="gamer"></a>Smash Bros.</a></li>
-                  <li><a href="gaming.html" id="gamer"></a>Rocket League</a></li>
+                  <li class="gamer" id="gamer">League of Legends Roster</a></li>
+                  <li>Top: Brian "BigBubba"</li>
+                  <li>Jungle: John "airborne"</li>
+                  <li>Mid: Trevor "QWERTY"</li>
+                  <li>ADC: Patrick "Crazyman"</li>
+                  <li>Support: Calvin "DeathYui"</li>
                 </ul>  
             </p>              
             <br>
@@ -98,9 +100,18 @@
 
 <div class="col-sm-4">
 
-      <div class="newsletter">
+  <div class="newsletter">
+    <h2>Subscribe to Newsletter</h2>
+      <input type="submit" id="flipDown" value="Learn More!"> <input type="submit" id="flipUp" value="Hide"><br>  
+        <div id="list">
+          <ul>
+          <li>Learn more about event near you.</li>
+          <li>Stay up to date with the latest tech trends.</li>
+          <li>Get exclusive deals and coupons.</li>
+          </ul><br>
+        </div>
+      
         <form action="confirmation.php" method="post">
-            <h2>Subscribe to Newsletter</h2>
             <label>Your First Name</label>
             <p><input type="text" name="firstname" placeholder="First Name"></p>
             
@@ -115,14 +126,6 @@
         </form>
     </div>
     
-    <input type="submit" id="flipDown" value="Learn More!"> <input type="submit" id="flipUp" value="Hide">  
-    <div id="list">
-      <ul>
-      <li>Learn more about event near you.</li>
-      <li>Stay up to date with the latest tech trends.</li>
-      <li>Get exclusive deals and coupons.</li>
-      </ul><br>
-    </div>
 
     <div class="socialmedia">
         <h2>Follow Us!</h2>
@@ -154,9 +157,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/80c1c40743.js" crossorigin="anonymous"></script>
-<!-- <script src="start.js"></script> -->
-<script src="slide_show.js"></script>
-<script src="newsletter.js"></script>
-<script src="RGB.js"></script>
-<script src="expand.js"></script>
+<script src="start.js"></script>
 </html>
